@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Calculator app</title>
+  <link rel="stylesheet" href="CSS/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display&family=Lexend+Deca&family=Spartan:wght@700&display=swap" rel="stylesheet">
+    <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <p>calc</p>
+      <div class="theme-numbers">
+        <ul>
+          <li>1</li>
+          <li>2</li>
+          <li>3</li>
+        </ul>
+      </div>
+      <div class="theme-container">
+        <div>
+          <h6 id='theme'>THEME</h6>
+        </div>
+        <div class="toggle">
+          <label class="radio-btn">
+              <input id="first" name="toggle-state" type="radio" checked />
+              <span class="wrapper"></span>
+          </label>
+          <label class="radio-btn">
+            <input id="second" name="toggle-state" type="radio" />
+            <span class="wrapper"></span>
+          </label>
+          <label class="radio-btn">
+            <input id="third" name="toggle-state" type="radio" />
+            <span class="wrapper"></span>
+          </label>
+        </div>
+      </div>
+    <div class="digitBox"></div>
+    <div class="grid-container">
+        <button class="grid-item" id="seven">7</button>
+        <button class="grid-item" id="eight">8</button>
+        <button class="grid-item" id="nine">9</button>
+        <button class="grid-item delete">DEL</button>
+        <button class="grid-item" id="four">4</button>
+        <button class="grid-item" id="five">5</button>
+        <button class="grid-item" id="six">6</button>
+        <button class="grid-item" id="add">+</button>
+        <button class="grid-item" id="one">1</button>
+        <button class="grid-item"id="two">2</button>
+        <button class="grid-item"id="three">3</button>
+        <button class="grid-item"id="minus">-</button>
+        <button class="grid-item"id="dot">.</button>
+        <button class="grid-item"id="zero">0</button>
+        <button class="grid-item"id="division">/</button>
+        <button class="grid-item"id="multiply">x</button>
+        <button class="grid-item reset">RESET</button>
+        <button class="grid-item equal">=</button>
+    </div>
+  </div>
+
+
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Silpa</a>.
+  </div>
+  <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+  <script src='index.js' charset="utf-8"></script>
+</body>
+</html>
