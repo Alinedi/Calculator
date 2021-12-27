@@ -4,7 +4,7 @@ This is a solution to the Calculator app challenge on Frontend Mentor.
 
 Links
 
-Live Site URL: mk-calculator.netlify.app
+Live Site URL: https://alinedi.github.io/Calculator/
 
 Built with
 
